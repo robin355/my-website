@@ -1,14 +1,17 @@
 import React from 'react';
 import './Banner.css'
-import background from '../../../../src/Assets/videos/example.mp4'
 const Banner = () => {
     return (
-        <div className='main'>
-            <video src={background} autoPlay muted></video>
-            <div className='content lg:pl-[100px]'>
-                <h2 className='text-4xl'>We shape the art of <br />
-                    technology</h2>
-                <button className="btn btn-outline btn-accent mt-4 text-white">Know More</button>
+        <div>
+            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://images.saymedia-content.com/.image/t_share/MTc0NDI4Nzg1MTI1MzY5NDc4/10-signs-of-a-healthy-work-environment.jpg")` }}>
+                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-left text-neutral-content">
+                    <div className="max-w-md">
+                        <h1 className="mb-5 text-4xl font-semibold">We shape the art of
+                            technology</h1>
+                        <button className="btn btn-primary">Know More</button>
+                    </div>
+                </div>
             </div>
         </div>
 

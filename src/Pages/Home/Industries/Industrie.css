@@ -1,0 +1,10 @@
+.card {
+    box-shadow: 0 0 5px #00000026
+}
+
+.card img {
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "https://mediusware.com/assets/image/industry/education.svg",
+        "name": "Education"
+    },
+    {
+        "id": 2,
+        "image": "https://mediusware.com/assets/image/industry/hands.svg",
+        "name": "Government"
+    },
+    {
+        "id": 3,
+        "image": "https://mediusware.com/assets/image/industry/hands.svg",
+        "name": "Medical"
+    },
+    {
+        "id": 4,
+        "image": "https://mediusware.com/assets/image/industry/union-1.svg",
+        "name": "Construction"
+    },
+    {
+        "id": 5,
+        "image": "https://mediusware.com/assets/image/industry/house.svg",
+        "name": "Real estate"
+    },
+    {
+        "id": 6,
+        "image": "https://mediusware.com/assets/image/industry/bank.svg",
+        "name": "Bank"
+    },
+    {
+        "id": 7,
+        "image": "https://mediusware.com/assets/image/industry/transport.svg",
+        "name": "Transport"
+    },
+    {
+        "id": 8,
+        "image": "https://mediusware.com/assets/image/industry/transport.svg",
+        "name": "Media"
+    },
+    {
+        "id": 9,
+        "image": "https://mediusware.com/assets/image/industry/retail.svg",
+        "name": "Retail"
+    },
+    {
+        "id": 10,
+        "image": "https://mediusware.com/assets/image/industry/elearning.svg",
+        "name": "E-learning"
+    },
+    {
+        "id": 11,
+        "image": "https://mediusware.com/assets/image/industry/ngo.svg",
+        "name": "NGO"
+    },
+    {
+        "id": 12,
+        "image": "https://mediusware.com/assets/image/industry/ngo.svg",
+        "name": "Healthcare"
+    }
+]

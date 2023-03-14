@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Website Development",
+        "image": "https://hr.mediusware.xyz/media/web_2_8_V4xvXsS.png",
+        "description": "We offer One-Of-A-Kind web development solutions to businesses all around the world..."
+    },
+    {
+        "id": 2,
+        "name": "APP Development",
+        "image": "https://hr.mediusware.xyz/media/web_2.png",
+        "description": "We provide you with smart and practical Android & iOS apps to ensure the best outcome for you...."
+    },
+    {
+        "id": 3,
+        "name": "E-commerce Solution",
+        "image": "https://hr.mediusware.xyz/media/web_2_1.png",
+        "description": "E-commerce websites need to be user-friendly, but attractive at the same time. Enriched with..."
+    },
+    {
+        "id": 4,
+        "name": "Enterprise Solution",
+        "image": "https://hr.mediusware.xyz/media/web_2_2.png",
+        "description": "An effective ERP software can integrate all your business operations into a single platfor..."
+    },
+    {
+        "id": 5,
+        "name": "SQA Solution",
+        "image": "https://hr.mediusware.xyz/media/web_2_6.png",
+        "description": "We perform end-to-end testing to offer you a flawless software experience. Our highly compete..."
+    },
+    {
+        "id": 6,
+        "name": "UI/UX Design & Dev",
+        "image": "https://hr.mediusware.xyz/media/web_2_3.png",
+        "description": "Good UI/UX design is not just about an aesthetically appealing interface, it’s also about craftin..."
+    },
+    {
+        "id": 7,
+        "name": "API Integration",
+        "image": "https://hr.mediusware.xyz/media/web_2_4.png",
+        "description": "API integration helps to get all your apps and systems work together. With an aim to fulfill..."
+    },
+    {
+        "id": 8,
+        "name": "Software Development",
+        "image": "https://hr.mediusware.xyz/media/web_2_8_jmOCM1k.png",
+        "description": "With state-of-the-art technology, we build useful software for any business. Bring your business..."
+    },
+    {
+        "id": 9,
+        "name": "Digital Marketing",
+        "image": "https://hr.mediusware.xyz/media/web_2_7.png",
+        "description": "From building a brand identity to designing a complete digital marketing solution,Mediusware knows..."
+    }
+]
