@@ -17,7 +17,6 @@ const Home = () => {
             <Technology></Technology>
             <Industries></Industries>
             <Join></Join>
-            <Address></Address>
         </div>
     );
 };

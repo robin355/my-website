@@ -10,7 +10,6 @@ const Contact = () => {
             <ContactBanner></ContactBanner>
             <ContactAddress></ContactAddress>
             <GoogleMap></GoogleMap>
-            <Address></Address>
         </div>
     );
 };
