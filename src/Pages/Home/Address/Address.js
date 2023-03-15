@@ -31,7 +31,7 @@ const Address = () => {
                     <Link to='/' className="link link-hover  text-base">API Integration</Link>
                     <Link to='/' className="link link-hover  text-base">Software Development</Link>
                     <Link to='/' className="link link-hover  text-base">SQA Solution</Link>
-                    <Link to='/' className="link link-hover  text-base">Digital Marketing</Link>
+                    <Link to='/' className="link link-hoer  text-base">Digital Marketing</Link>
                 </div>
                 <div>
                     <span className="footer-title">Bangladesh Address</span>

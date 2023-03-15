@@ -5,6 +5,7 @@ import Experience from './Experience/Experience';
 import Industries from './Industries/Industries';
 import Join from './JoinTeam/Join';
 import Services from './Services/Services';
+import Technology from './Technology/Technology';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner></Banner>
             <Experience></Experience>
             <Services></Services>
+            <Technology></Technology>
             <Industries></Industries>
             <Join></Join>
             <Address></Address>
