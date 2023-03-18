@@ -13,8 +13,8 @@ const Navbar = () => {
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52">
               <li><Link to='/home' className='hover:underline hover:text-[#0d6efd]'>Home</Link></li>
               <li>
-                <Link tabIndex={0} className=" bg-[#ffffff] m-1 hover:underline hover:text-[#0d6efd] dropdown dropdown-hover">Service</Link>
-                <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                <Link tabIndex={0} to='/service' className=" bg-[#ffffff] m-1 hover:underline hover:text-[#0d6efd] dropdown dropdown-hover">Service</Link>
+                <ul tabIndex={0} className="dropdown-content menu p-3 shadow bg-base-100 rounded-box w-52">
                   <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/service/web'>Website Development</Link></li>
                   <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/service/mobile'>Mobile App Development</Link></li>
                   <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/service/commerce'>E-commerce Solution</Link></li>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             <li><Link to='/home' className='bg-[#ffffff] hover:underline hover:text-[#0d6efd]'>Home</Link></li>
             <li>
-              <Link tabIndex={0} className=" bg-[#ffffff] m-1 hover:underline hover:text-[#0d6efd] dropdown dropdown-hover">Service</Link>
+              <Link tabIndex={0} to='/service' className=" bg-[#ffffff] m-1 hover:underline hover:text-[#0d6efd] dropdown dropdown-hover">Service</Link>
               <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
                 <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/service/web'>Website Development</Link></li>
                 <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/service/mobile'>Mobile App Development</Link></li>
@@ -46,15 +46,7 @@ const Navbar = () => {
                 <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/service/software'>Software Development</Link></li>
               </ul>
             </li>
-            {/* <ul className="p-2">
-                <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/web'>Website Development</Link></li>
-                <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/mobile'>Mobile App Development</Link></li>
-                <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/commerce'>E-commerce Solution</Link></li>
-                <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/ui'>UI/UX Design & Dev </Link></li>
-                <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/api'>API Intregration</Link></li>
-                <li><Link className=' bg-[#ffffff] hover:text-[#0d6efd]' to='/software'>Software Development</Link></li>
-              </ul>
-            </li> */}
+
             <li><Link className=' bg-[#ffffff] hover:underline hover:text-[#0d6efd]' to='/project'>Project</Link></li>
             <li><Link className=' bg-[#ffffff] hover:underline hover:text-[#0d6efd]' to='/career'>Careers</Link></li>
             <li><Link className=' bg-[#ffffff] hover:underline hover:text-[#0d6efd]' to='/about'>About</Link></li>

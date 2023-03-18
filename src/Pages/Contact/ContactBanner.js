@@ -9,7 +9,6 @@ const ContactBanner = () => {
                     <div className="max-w-md">
                         <h1 className="mb-3 text-4xl font-semibold mt-5">Contact</h1>
                         <p className="mb-5">Give us a call or drop by anytime, we endeavor to answer all inquiries within 24 hours on business days.</p>
-
                     </div>
                 </div>
             </div>

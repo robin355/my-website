@@ -10,9 +10,9 @@ const Footer = () => {
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                     <Link to='/home' className='hover:underline hover:text-[#0d6efd]'>Home</Link>
-                    <Link to='/home' className='hover:underline hover:text-[#0d6efd]'>About</Link>
-                    <Link to='/home' className='hover:underline hover:text-[#0d6efd]'>Services</Link>
-                    <Link to='/home' className='hover:underline hover:text-[#0d6efd]'>Contract</Link>
+                    <Link to='/about' className='hover:underline hover:text-[#0d6efd]'>About</Link>
+                    <Link to='/service' className='hover:underline hover:text-[#0d6efd]'>Services</Link>
+                    <Link to='/contact' className='hover:underline hover:text-[#0d6efd]'>Contract</Link>
 
                 </div>
             </footer>

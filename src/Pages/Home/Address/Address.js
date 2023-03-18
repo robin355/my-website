@@ -23,13 +23,13 @@ const Address = () => {
                 </div>
                 <div>
                     <span className="footer-title">IT Services</span>
-                    <Link to='/' className="link link-hover  text-base">Website Development</Link>
-                    <Link to='/' className="link link-hover  text-base">Mobile App Development</Link>
-                    <Link to='/' className="link link-hover  text-base">E-commerce Solution</Link>
+                    <Link to='/service/web' className="link link-hover  text-base">Website Development</Link>
+                    <Link to='/service/mobile' className="link link-hover  text-base">Mobile App Development</Link>
+                    <Link to='/service/commerce' className="link link-hover  text-base">E-commerce Solution</Link>
                     <Link to='/' className="link link-hover  text-base">Enterprise Solution</Link>
-                    <Link to='/' className="link link-hover  text-base">UI/UX Design & Dev</Link>
-                    <Link to='/' className="link link-hover  text-base">API Integration</Link>
-                    <Link to='/' className="link link-hover  text-base">Software Development</Link>
+                    <Link to='/service/ui' className="link link-hover  text-base">UI/UX Design & Dev</Link>
+                    <Link to='/service/api' className="link link-hover  text-base">API Integration</Link>
+                    <Link to='/service/software' className="link link-hover  text-base">Software Development</Link>
                     <Link to='/' className="link link-hover  text-base">SQA Solution</Link>
                     <Link to='/' className="link link-hoer  text-base">Digital Marketing</Link>
                 </div>
