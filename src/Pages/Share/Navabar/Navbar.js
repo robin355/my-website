@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import image from '../../../Assets/image/Robin.png'
 const Navbar = () => {
   return (
     <div>
@@ -30,7 +30,13 @@ const Navbar = () => {
               <li><Link className=' bg-[#ffffff] hover:underline hover:text-[#0d6efd]' to='/contact'>Contact</Link></li>
             </ul>
           </div>
-          <Link className="normal-case text-xl">Logo Design</Link>
+          <Link className="">
+            <div className="avatar">
+              <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <img src={image} alt='/' />
+              </div>
+            </div>
+          </Link>
         </div>
         <div className=" hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

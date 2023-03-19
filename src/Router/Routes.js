@@ -9,15 +9,18 @@ import Projects from "../Pages/Projects/Projects";
 import Api from "../Pages/Services/Api/Api";
 import Ecommerce from "../Pages/Services/Ecommerce/Ecommerce";
 import MobileDev from "../Pages/Services/MobileDev/MobileDev";
+import ServicesArea from "../Pages/Services/Services/ServicesArea";
 import SoftwareDev from "../Pages/Services/SoftwareDev/SoftwareDev";
 import UiUx from "../Pages/Services/UiUX/UiUx";
 import WebsiteDev from "../Pages/Services/WebsiteDev/WebsiteDev";
+import ErrorPage from "../Pages/Share/ErrorPage";
 
 
 export const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: '/',
@@ -26,6 +29,11 @@ export const router = createBrowserRouter([
             {
                 path: '/home',
                 element: <Home></Home>
+            },
+            {
+                path: '/service',
+                element: <ServicesArea></ServicesArea>
+
             },
             {
                 path: '/service/web',
